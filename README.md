@@ -26,17 +26,17 @@ otherwise it returns that it doesn't exist.
                         specified then the default output file is
                         "<filename>.gv"
     
-System requirements:
-  Python (3.x)
-  jpype 0.6.1 (python)
-  Java (1.8.x)
+System requirements <br/>
+1. Python (3.x)
+2. jpype 0.6.1 (python)
+3. Java (1.8.x)
     
     
-Setting up Environment:
- The project requires to meet these two dependencies:
+Setting up the environment <br/> 
+The project requires to meet these two dependencies:
     
-   export HYPERTREE_HOME = <the root directory of the PyCostkdecomp project>
-    
-   export JAVA_HOME=`/usr/libexec/java_home -v 1.8` Mac Users
-   or export JAVA_HOME=/usr/lib/jvm/java-8-oracle Linux Users
+    export HYPERTREE_HOME = <the root directory of the PyCostkdecomp project>
+    export JAVA_HOME=`/usr/libexec/java_home -v 1.8` # Mac Users
+    #or 
+    export JAVA_HOME=/usr/lib/jvm/java-8-oracle # Linux Users
 
