@@ -4,7 +4,7 @@ A simple python script to compute an optimal COST BASED hypertree decomposition
 Compute an optimal COST BASED hypertree decomposition of width <= k (if any)
 otherwise it returns that it doesn't exist.
 
-  positional arguments:
+    positional arguments:
     <filename>            it contains the body of a conjunctive query
 
     optional arguments:
