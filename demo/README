@@ -1,0 +1,15 @@
+First of all do not forget to:
+
+1) export HYPERTREE_HOME = <the root directory of the PyCostkdecomp project>
+and    
+2)  export JAVA_HOME=`/usr/libexec/java_home -v 1.8` Mac Users
+    or export JAVA_HOME=/usr/lib/jvm/java-8-oracle Linux Users 
+
+Then run the script as:
+./hypertree.py demo/test.txt -k 2 -as demo/testSizes.txt -vd demo/testDistinctValues.txt -o test
+
+If you don’t have quantitative informations on the input database, you can run the script as:
+./hypertree.py demo/test.txt -k 2 -o testStructural
+
+in this latter case, the solver uses a cost function that minimizes the number of bags having the largest width.
+

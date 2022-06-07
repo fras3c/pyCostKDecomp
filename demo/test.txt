@@ -1,0 +1,9 @@
+a (S,X,X1,C,F),
+b (S,Y,Y1,C1,F1),
+c (C,C1,Z),
+d (X,Z),
+e (Y,Z),
+f (F,F1,Z1),
+g (X1,Z1),
+h (Y1,Z1),
+i (J,X,Y,X1,Y1).
