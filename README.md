@@ -1,5 +1,9 @@
 # pyCostKDecomp
-A simple python script to compute an optimal COST BASED hypertree decomposition
+A simple python script and command line application for computing an optimal COST BASED hypertree decomposition using CostKDecomp as a library.
+This script is meant to facilitate the computations of hypertree decompositions and by default it uses a structural cost function, i.e., it exploits only informations about the hypergraph representation.\ 
+
+Please note that we have also built a custom cost function which can be used in contexts like database query answering where we can use other statistics such as size of relations, selectiviy of attributes, indexes, etc.\
+This function can be used by filling the optional arguments as explained in the "Help" section below.\
 
 Compute an optimal COST BASED hypertree decomposition of width <= k (if any)
 otherwise it returns that it doesn't exist.
